@@ -110,17 +110,17 @@ async def ping_com(client, message: Message, _):
                 ],
                 [
                     InlineKeyboardButton(
-                        text="✦ ɢʀᴏᴜᴘ ✦",
-                        url=f"https://t.me/TG_FRIENDSS",
+                        text="ღ ɢʀᴏᴜᴘ ღ",
+                        url=f"https://t.me/The_Art_Of_Self_Healing",
                     ),
                     InlineKeyboardButton(
-                        text="✧ ᴍᴏʀᴇ ✧",
-                        url=f"https://t.me/VIP_CREATORS",
+                        text="ღ Dᴇᴠᴇʟᴏᴘᴇʀ ღ",
+                        url=f"https://t.me/king_0f_izzy",
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        text="❅ ʜᴇʟᴘ ❅", url=f"https://t.me/{app.username}?start=help"
+                        text="ღ ʜᴇʟᴘ ღ", url=f"https://t.me/{app.username}?start=help"
                     )
                 ],
             ]
@@ -128,7 +128,7 @@ async def ping_com(client, message: Message, _):
     )
     await response.delete()
 
-    close_button = InlineKeyboardButton("๏ ᴄʟᴏsᴇ ๏", callback_data="close_data")
+    close_button = InlineKeyboardButton("ღ ᴄʟᴏsᴇ ღ", callback_data="close_data")
     inline_keyboard = InlineKeyboardMarkup([[close_button]])
 
 
